@@ -175,8 +175,7 @@ public class Calculator
     {
         double number = 0;
         Total = 1;
-        List<double> emptyNumbersList = new List<double>();
-
+        
         if (Response == "yes")
         {
             Console.WriteLine("Choose which numbers to multiply to " + Result + ", press only enter if you are finished.");
@@ -218,7 +217,7 @@ public class Calculator
         ThereIsAResult = true;
         Console.WriteLine("The result of your operation is {0}", Result);
 
-        Numbers = emptyNumbersList;
+        Numbers.Clear();
 
         Total = 0;
         
