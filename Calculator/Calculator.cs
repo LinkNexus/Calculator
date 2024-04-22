@@ -53,43 +53,38 @@ public class Calculator
         
         string? choice = Console.ReadLine();
 
-        if (choice == "1")
+        switch (choice)
         {
-            Addition();
-        }
-
-        if (choice == "2")
-        {
-            Subtraction();
-        }
-
-        if (choice == "3")
-        {
-            Multiplication();
-        }
-
-        if (choice == "4")
-        {
-            Division();
-        }
-
-        if (choice == "5")
-        {
-            Square();
-        }
-
-        if (choice == "6")
-        {
-            SquareRoot();
-        }
-
-        if (choice == "7"){
-            Logarithm();
-        }
-
-        if (choice == "8")
-        {
-            return;
+            case "1":
+                Addition();
+                break;
+            
+            case "2":
+                Subtraction();
+                break;
+            
+            case "3":
+                Multiplication();
+                break;
+            
+            case "4":
+                Division();
+                break;
+            
+            case "5":
+                Square();
+                break;
+            
+            case "6":
+                SquareRoot();
+                break;
+            
+            case "7":
+                Logarithm();
+                break;
+            
+            case "8":
+                return;
         }
     }
 

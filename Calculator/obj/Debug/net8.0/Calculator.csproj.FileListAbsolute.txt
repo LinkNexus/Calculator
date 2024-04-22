@@ -12,3 +12,4 @@ C:\Users\deity\RiderProjects\Calculator\Calculator\obj\Debug\net8.0\refint\Calcu
 C:\Users\deity\RiderProjects\Calculator\Calculator\obj\Debug\net8.0\Calculator.pdb
 C:\Users\deity\RiderProjects\Calculator\Calculator\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
 C:\Users\deity\RiderProjects\Calculator\Calculator\obj\Debug\net8.0\ref\Calculator.dll
+C:\Users\deity\RiderProjects\Calculator\Calculator\obj\Debug\net8.0\Calculator.sourcelink.json
